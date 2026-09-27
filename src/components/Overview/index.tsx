@@ -7,7 +7,7 @@ import MisalignmentChart from '../Charts/MisalignmentChart';
 import HeatmapParallelCoord  from "../heatmap/HeatmapParallelCoord";
 
 import { compareTimeSeries } from "../../application/compareTimeSeries";
-import { createDefaultComparator } from "../../application/defaultComparator";
+import { createDefaultComparator } from "../../application/ComparatorFactory";
 
 import { frameToTimeSeries } from "../../infraestructure/frameToTimeSeries";
 import { frameToTableData } from "../../infraestructure/frameToTableData";
