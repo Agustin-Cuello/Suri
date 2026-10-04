@@ -49,7 +49,8 @@ export const DataComparisonPanel: React.FC<PanelProps> = ({ data, width, height 
 
   return (
   
-    <div style={{ width, height, overflowY:"scroll", overflowX:"scroll", marginBottom: "10%"}}>
+    <div style={{ width, height, overflowY:"scroll", overflowX:"scroll", 
+                marginBottom: "10%", paddingRight:"10%"}}>
       <div style={{ width: width, height: height }}>
         <DistanceChart
           Distance={result}

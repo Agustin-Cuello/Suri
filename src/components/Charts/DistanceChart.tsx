@@ -40,12 +40,13 @@ export default function DistanceChart(props: DistanceProps) {
     },
     legend: {
       data: ['Distance'],
+      left: 'center',
       textStyle: {
         color: props.textColor,
       },
     },
     grid: {
-      left: 12,
+      left: 55,
       right: 20,
       top: 50,
       containLabel: true,
@@ -64,7 +65,7 @@ export default function DistanceChart(props: DistanceProps) {
       name: 'Distance',
       type: 'value',
       nameLocation: 'middle',
-      nameGap: 28,
+      nameGap: 40,
       nameTextStyle: {
         color: props.textColor,
       },
